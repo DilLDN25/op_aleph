@@ -8,66 +8,14 @@ $black-30: #afb9c1;
 $black-20: #ccd6de;
 $black-10: #eaf4fc;
 
-$white: #fff8f1;
-$white-3: #fff8f1;
-$white-5: #fff8f1;
-$white-10: #fff8f1;
-
-// darc greens
-$darc-green-light: #F1FFF8;
-$darc-green2: #DAFFEC;
-$darc-green3: #BEFFDF;
-$darc-green4: #9DFFD0;
-$darc-green5: #83FFC3;
-$darc-green6: #69FEB5;
-$darc-green7: #63EEAA;
-$darc-green8: #58D99A;
-$darc-green9: #51C68C;
-$darc-green-dark: #43A473;
-
-// darc oranges
-$darc-orange-light: #FAEAE8;
-$darc-orange1: #FECEC0;
-$darc-orange2: #FEAE98;
-$darc-orange3: #FE8F6F;
-$darc-orange4: #FE764F;
-$darc-orange5: #FF5F33;
-$darc-orange6: #F4592F;
-$darc-orange7: #E6522A;
-$darc-orange8: #D74C26;
-$darc-orange-dark: #BD401F;
-
-// darc purples
-$darc-purple-light: #EDE7F6;
-$darc-purple1: #D1C4E9;
-$darc-purple2: #B39DDB;
-$darc-purple3: #9575CD;
-$darc-purple4: #7E57C2;
-$darc-purple5: #673AB7;
-$darc-purple6: #5E35B1;
-$darc-purple7: #512DA8;
-$darc-purple8: #4527A0;
-$darc-purple-dark: #311B92;
-
-// darc yellows
-$darc-yellow-light: #FFFEE8;
-$darc-yellow1: #FFFAC5;
-$darc-yellow2: #FFF69E;
-$darc-yellow3: #FEF177;
-$darc-yellow4: #FCEC57;
-$darc-yellow5: #F9E737;
-$darc-yellow6: #FFDD3B;
-$darc-yellow7: #FFC533;
-$darc-yellow8: #FDAD2B;
-$darc-yellow-dark: #F9841C;
-
-// blueprint overrides
-$blue2: $darc-purple8;
+$white: #ffffff;
+$white-3: #f5f5f5;
+$white-5: #f7f7f7;
+$white-10: #fafafa;
 
 @import '@blueprintjs/core/lib/scss/variables';
 
 $editor-background-color: $black-90;
-// $editor-border-color: $light-gray1;
 $editor-border-radius: 5px;
 $editor-box-shadow:
   0 0 0 1px rgba(16, 22, 26, 0.1),
@@ -91,7 +39,7 @@ $disabled-color: $black-60;
 
 $small: 500px;
 $medium: 850px;
-$large: 110px;
+$large: 1100px;
 
 @mixin small {
   @media screen and (max-width: $small) {
