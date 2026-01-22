@@ -1,6 +1,6 @@
 ARG ALEPH_TAG
-FROM ghcr.io/openaleph/aleph-ui-base:sha-${ALEPH_TAG} AS builder
-LABEL org.opencontainers.image.source = "https://github.com/openaleph/openaleph/ui"
+FROM ghcr.io/DilLDN25/op_aleph-ui-base:sha-${ALEPH_TAG} AS builder
+LABEL org.opencontainers.image.source = "https://github.com/DilLDN25/op_aleph/ui"
 
 RUN npm run messages
 RUN npm run build
